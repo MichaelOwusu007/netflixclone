@@ -71,3 +71,44 @@ input[type="radio"]{
     text-decoration: none;
 }
 
+@media (max-width:400px) {
+#diff{
+    right: 15px;
+
+}
+
+#btnwrap{
+    flex:wrap;
+}
+
+.accordion p {
+    font-size: 14px;
+
+}
+
+.accordion li label{
+    font-size: 15px;
+    padding: 12px;
+}
+
+
+}
+
+@media (max-width:767px) {
+    #diff{
+
+        position: absolute;
+        align-self: end;
+        padding: 0 20%;
+    }
+    
+}
+
+@media (max-width:600px) {
+    #diff {
+
+        padding: 0 5%;
+    }
+
+}
+
