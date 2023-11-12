@@ -62,3 +62,12 @@ input[type="radio"]{
     transform: rotate(135deg);
 }
 
+.footer .col{
+    margin-bottom: 20px;
+}
+
+.footer .col a{
+    display: block;
+    text-decoration: none;
+}
+
