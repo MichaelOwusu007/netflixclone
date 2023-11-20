@@ -3,7 +3,7 @@ import './Home.css';
 
 function Homepage() {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <header className='header'>
         <nav className='flex items-center  justify-between py-2 px-0'>
           <img src="/images/logo.png" className='logo lg:w-[150px] w-[90px] md:w-[120px] cursor-pointer  '/>
@@ -128,9 +128,9 @@ function Homepage() {
           </li>
         </ul>
         <small className='font-bold text-[15px]  lg:text-lg '>Ready to watch? enter your email to create or start your membership</small>
-         <form id='btnwrap' className='email-signup bg-white flex rounded overflow-hidden items-center w-full mt-[30px] text-black max-w-[600px] mx-auto mb-[60px] '>
-            <input type="email" placeholder="Email address" required className='flex-1 outline-0 border-0 ml-[20px] ' />
-            <button type='submit' className='border-0  bg-[#db0000] outline-0 lg:py-[15px] py-[8px] lg:px-[30px] px-[20px] m-auto text-[16px] text-white cursor-pointer ' >Get Started</button>
+         <form id='btnwrap' className='email-signup bg-white flex rounded overflow-hidden items-center  mt-[30px] text-black max-w-[600px] mx-auto mb-[60px] '>
+            <input type="email" placeholder="Email address" required className='flex-1 outline-0 border-0 ml-[20px] last-input ' />
+            <button type='submit' className='border-0 last-button  bg-[#db0000] outline-0 lg:py-[15px] py-[8px] lg:px-[30px] px-[20px] m-auto text-[16px] text-white cursor-pointer ' >Get Started</button>
           </form>
       </div>
 

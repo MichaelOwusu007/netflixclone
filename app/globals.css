@@ -7,10 +7,10 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  
 }
 
 body{
-  overflow-x: hidden;
   background: black;
   color: white;
   font-family: "Poppins", sans-serif;

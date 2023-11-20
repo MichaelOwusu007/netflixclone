@@ -78,7 +78,18 @@ input[type="radio"]{
 }
 
 #btnwrap{
-    flex:wrap;
+    max-width: 350px;
+}
+
+#btnwrap .last-button {             
+    padding: 6px 5px;
+    font-size: 13px;
+
+}
+
+#btnwrap .last-input{
+    margin-left: 5px;
+    font-size: 16px;
 }
 
 .accordion p {
